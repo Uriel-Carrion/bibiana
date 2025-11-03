@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Cumpleaños Bibiana</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Corazones animados de fondo CORREGIDOS -->
+    <div class="hearts-container" id="hearts"></div>
+    <!-- Navegación -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo titulo">💖 Mi Bibiana Loa Mendiola</div>
+            <div class="menu-toggle" id="menuToggle">☰</div>
+            <ul class="nav-links" id="navLinks">
+            </ul>
+        </div>
+    </nav>
+    <br />
+    <br />
+    <br />
+    <br />
+    <!-- Sección de Inicio -->
+    <section id="inicio">
+        <div class="container">
+            <div class="birthday-content">
+                <div class="birthday-message">
+                    <h1 class="titulo">Feliz Cumpleaños, Mi Pecas 😍</h1>
+                    <p>Estas son las mañanitas que cantaba el rey Uriel! 🎶 Hoy, por ser el día de tu santo, ¡te las
+                        cantamos a ti!</p>
+                    <p>Cada momento a tu lado es un regalo que atesoro con todo mi corazón.</p>
+                    <p>Que este nuevo año de vida te traiga toda la felicidad que mereces y muchos sueños cumplidos.</p>
+                    <a href="#" class="btn" id="flowerBtn">Ver Flores</a>
+                </div>
+                <div class="birthday-image">
+                    <img src="./img/IMG_8785.JPEG" alt="Bibiana feliz cumpleaños">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Fotos -->
+    <section id="fotos">
+        <div class="container">
+            <h2>Momentos</h2>
+            <p>Algunos de los recuerdos más especiales que guardo en mi corazón.</p>
+
+            <!-- Slider de fotos -->
+            <div class="slider-container">
+                <div class="slider" id="slider">
+                    <div class="slide active">
+                        <img src="./img/IMG_6503.JPEG" alt="Recuerdo especial 1">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/IMG_5853.JPEG" alt="Recuerdo especial 2">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/IMG_6589.JPEG" alt="Recuerdo especial 3">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/IMG_6738.JPEG" alt="Recuerdo especial 4">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/IMG_7989.JPEG" alt="Recuerdo especial 5">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/IMG_8219.JPEG" alt="Recuerdo especial 6">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/IMG_8641.JPEG" alt="Recuerdo especial 7">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/IMG_8659.JPEG" alt="Recuerdo especial 8">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/IMG_8928.JPEG" alt="Recuerdo especial 9">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/IMG_4820.JPEG" alt="Recuerdo especial 10">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/IMG_5667.JPEG" alt="Recuerdo especial 11">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/IMG_5828.JPEG" alt="Recuerdo especial 12">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/IMG_6800.JPEG" alt="Recuerdo especial 13">
+                    </div>
+                </div>
+                <button class="slider-btn prev" id="prevBtn">&#10094;</button>
+                <button class="slider-btn next" id="nextBtn">&#10095;</button>
+                <div class="slider-dots" id="sliderDots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Carta -->
+    <section id="carta">
+        <div class="container">
+            <h2>Unas palabra que quiero decirte...</h2>
+            <div class="letter-container">
+                <div class="letter-content">
+                    <p>Mi querida Pecas,</p>
+                    <p>En este día tan especial, no puedo evitar recordar todos los momentos maravillosos que hemos
+                        compartido. </p>
+                    <p>Cada día a tu lado es una aventura, una razón para sonreír y un motivo para agradecer a la vida
+                        por haberte puesto en mi camino. Tu risa es la melodía más hermosa que he escuchado, y tu
+                        sonrisa ilumina incluso los días más grises.</p>
+                    <p>Eres una persona increíble, con un corazón tan grande que cabe todo el amor del mundo. Tu bondad,
+                        tu fuerza y tu sonrisa tan encantadora y uff no hablemos de los hermosos ojos que tienes 😍.</p>
+                    <p>En tu cumpleaños, deseo que todos tus sueños se hagan realidad, que la felicidad te acompañe
+                        siempre y que nunca dejes de brillar.</p>
+
+                    <p>Feliz cumpleaños, mi amor. Eres el regalo más preciado que la vida me ha dado.</p>
+                    <div class="signature">
+                        <p>Con todo mi amor,</p>
+                        <p>Uriel</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="musica">
+        <div class="container">
+            <h2>Una bonita Canción 💞</h2>
+            <p>Este día solo importas tú...</p>
+
+            <!-- Reproductor visual de Spotify (solo decorativo) -->
+            <div class="music-spotify">
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/7vd2YXwqxAG2BGuEUoMzGl?utm_source=generator" width="100%"
+                    height="152" frameBorder="0"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+                </iframe>
+            </div>
+
+            <!-- Música real de fondo (automática y sin controles visibles) -->
+            <audio id="backgroundMusic" autoplay loop hidden>
+                <source src="./music/Solamente.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </section>
+
+
+
+
+    <script>
+        function startMusic() {
+            const music = document.getElementById("backgroundMusic");
+            music.volume = 0.6;
+            if (music.paused) {
+                music.play().then(() => {
+                    document.getElementById("startMessage").style.display = "none";
+                    removeListeners();
+                }).catch(err => console.log("Autoplay bloqueado:", err));
+            } else {
+                removeListeners();
+            }
+        }
+
+        function removeListeners() {
+            document.removeEventListener("click", startMusic);
+            document.removeEventListener("touchstart", startMusic);
+            document.removeEventListener("scroll", startMusic);
+        }
+
+        // Escuchamos varios tipos de interacción
+        document.addEventListener("click", startMusic);
+        document.addEventListener("touchstart", startMusic);
+        document.addEventListener("scroll", startMusic);
+    </script>
+
+    <script>
+        // JavaScript para el Slider de Fotos
+        document.addEventListener('DOMContentLoaded', function () {
+            const slider = document.getElementById('slider');
+            const slides = document.querySelectorAll('.slide');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const sliderDots = document.getElementById('sliderDots');
+
+            let currentSlide = 0;
+            const totalSlides = slides.length;
+
+            // Crear dots dinámicamente
+            function createDots() {
+                for (let i = 0; i < totalSlides; i++) {
+                    const dot = document.createElement('div');
+                    dot.classList.add('dot');
+                    if (i === 0) dot.classList.add('active');
+                    dot.addEventListener('click', () => goToSlide(i));
+                    sliderDots.appendChild(dot);
+                }
+            }
+
+            // Ir a slide específico
+            function goToSlide(slideIndex) {
+                // Remover clase active de todos los slides y dots
+                slides.forEach(slide => slide.classList.remove('active'));
+                document.querySelectorAll('.dot').forEach(dot => dot.classList.remove('active'));
+
+                // Agregar clase active al slide y dot actual
+                slides[slideIndex].classList.add('active');
+                document.querySelectorAll('.dot')[slideIndex].classList.add('active');
+
+                currentSlide = slideIndex;
+            }
+
+            // Slide siguiente
+            function nextSlide() {
+                let next = currentSlide + 1;
+                if (next >= totalSlides) next = 0;
+                goToSlide(next);
+            }
+
+            // Slide anterior
+            function prevSlide() {
+                let prev = currentSlide - 1;
+                if (prev < 0) prev = totalSlides - 1;
+                goToSlide(prev);
+            }
+
+            // Event listeners para botones
+            nextBtn.addEventListener('click', nextSlide);
+            prevBtn.addEventListener('click', prevSlide);
+
+            // Auto-avance cada 5 segundos
+            let slideInterval = setInterval(nextSlide, 5000);
+
+            // Pausar auto-avance cuando el mouse está sobre el slider
+            slider.addEventListener('mouseenter', () => {
+                clearInterval(slideInterval);
+            });
+
+            // Reanudar auto-avance cuando el mouse sale del slider
+            slider.addEventListener('mouseleave', () => {
+                slideInterval = setInterval(nextSlide, 5000);
+            });
+
+            // Inicializar dots
+            createDots();
+
+            // Navegación con teclado
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'ArrowLeft') prevSlide();
+                if (e.key === 'ArrowRight') nextSlide();
+            });
+        });
+
+        // JavaScript para corazones animados (opcional)
+        function createHearts() {
+            const heartsContainer = document.querySelector('.hearts-container');
+            if (!heartsContainer) return;
+
+            for (let i = 0; i < 15; i++) {
+                setTimeout(() => {
+                    const heart = document.createElement('div');
+                    heart.classList.add('heart');
+
+                    // Posición aleatoria
+                    const left = Math.random() * 100;
+                    const size = Math.random() * 20 + 10;
+                    const duration = Math.random() * 10 + 10;
+
+                    heart.style.left = left + 'vw';
+                    heart.style.width = size + 'px';
+                    heart.style.height = size + 'px';
+                    heart.style.animationDuration = duration + 's';
+
+                    // Color aleatorio entre rosados
+                    const colors = ['#d81b60', '#f48fb1', '#ec407a', '#ad1457'];
+                    const color = colors[Math.floor(Math.random() * colors.length)];
+                    heart.style.backgroundColor = color;
+
+                    heartsContainer.appendChild(heart);
+
+                    // Remover el corazón después de la animación
+                    setTimeout(() => {
+                        heart.remove();
+                    }, duration * 1000);
+
+                }, i * 500);
+            }
+        }
+
+        // Crear corazones cada 3 segundos
+        setInterval(createHearts, 3000);
+        createHearts(); // Ejecutar una vez al cargar
+
+        // JavaScript para el menú móvil (si lo necesitas)
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+
+            if (menuToggle && navLinks) {
+                menuToggle.addEventListener('click', function () {
+                    navLinks.classList.toggle('active');
+                });
+            }
+        });
+    </script>
+
+    <script>
+        document.getElementById('flowerBtn').addEventListener('click', function () {
+            createFlowerAnimation();
+            createConfetti();
+        });
+
+        function createFlowerAnimation() {
+            const flowerEmojis = ['🌸', '🌺', '🌷', '🌹', '💐', '🥀', '🌼', '🌻'];
+            const colors = ['#ff9a9e', '#fad0c4', '#a1c4fd', '#c2e9fb', '#ffecd2', '#fcb69f'];
+
+            for (let i = 0; i < 50; i++) {
+                setTimeout(() => {
+                    const flower = document.createElement('div');
+                    flower.classList.add('flower');
+                    flower.innerHTML = flowerEmojis[Math.floor(Math.random() * flowerEmojis.length)];
+                    flower.style.left = Math.random() * 100 + 'vw';
+                    flower.style.fontSize = (Math.random() * 30 + 20) + 'px';
+                    flower.style.color = colors[Math.floor(Math.random() * colors.length)];
+                    flower.style.animationDuration = (Math.random() * 3 + 3) + 's';
+                    flower.style.zIndex = '1000';
+
+                    document.body.appendChild(flower);
+
+                    // Remover el elemento después de la animación
+                    setTimeout(() => {
+                        if (flower.parentNode) {
+                            flower.parentNode.removeChild(flower);
+                        }
+                    }, 6000);
+                }, i * 100);
+            }
+        }
+
+        function createConfetti() {
+            const colors = ['#f44336', '#e91e63', '#9c27b0', '#673ab7', '#3f51b5', '#2196f3', '#03a9f4', '#00bcd4', '#009688', '#4CAF50', '#8BC34A', '#CDDC39', '#FFEB3B', '#FFC107', '#FF9800', '#FF5722'];
+
+            for (let i = 0; i < 150; i++) {
+                setTimeout(() => {
+                    const confetti = document.createElement('div');
+                    confetti.classList.add('confetti');
+                    confetti.style.left = Math.random() * 100 + 'vw';
+                    confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                    confetti.style.width = (Math.random() * 10 + 5) + 'px';
+                    confetti.style.height = (Math.random() * 10 + 5) + 'px';
+                    confetti.style.animationDuration = (Math.random() * 3 + 2) + 's';
+                    confetti.style.zIndex = '1000';
+
+                    document.body.appendChild(confetti);
+
+                    // Remover el elemento después de la animación
+                    setTimeout(() => {
+                        if (confetti.parentNode) {
+                            confetti.parentNode.removeChild(confetti);
+                        }
+                    }, 6000);
+                }, i * 20);
+            }
+        }
+    </script>
+</body>
+
+</html>
